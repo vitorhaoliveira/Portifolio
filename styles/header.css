@@ -1,5 +1,18 @@
+#fixedHeader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.hidden {
+    transform: translateY(-100%);
+}
+
 .cabecalho {
     padding: 2rem 1rem ;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.9)
 }
 
 .cabecalho__menu {

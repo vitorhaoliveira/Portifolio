@@ -6,13 +6,15 @@
     <title>Vitor Hugo</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/apresentacao.css">
+    <link rel="stylesheet" href="styles/sobre.css">
+    <link rel="stylesheet" href="styles/projetos.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header id="fixedHeader" class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+            <a class="cabecalho__menu__link" href="#link1">Sobre mim</a>
             <a class="cabecalho__menu__link cabecalho__menu__link2" href="https://www.linkedin.com/in/vitor-hugo-alves-9368b9249/" target="_blank">Linkedin</a>
             <a class="cabecalho__menu__link cabecalho__menu__link2" href="https://github.com/vitorhaoliveira" target="_blank">Github</a>
             <a class="cabecalho__menu__link cabecalho__menu__link2" href="https://www.instagram.com/_vitorha/" target="_blank">Instagram</a>
@@ -24,17 +26,31 @@
             <h2 class="apresentacao__conteudo__subtitulo destaque">Desenvolvedor Front-end</h2>
             <p class="apresentacao__conteudo__texto">Experiência em desenvolver páginas robustas e mordernas.</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__navegacao" href="about.html">Sobre mim</a>
+                <a class="apresentacao__links__navegacao" href="about.html">Contato</a>
                 <a class="apresentacao__links__navegacao link-nav2"href="#">Download CV<a>
             </div>
         </section>
         <img class="apresentacao__imagem" src="imagens/foto-social.jpeg" alt="Foto Vitor">
     </main>
-    <main>
-        
+    <main id="link1" class="sobre__conteudo">
+        <h2 class="sobre__titulo"><strong class="destaque2">Sobre</strong> mim</h2>
+        <p class="sobre__texto">Seja bem-vindo(a), me chamo Vitor Hugo Alves de Oliveira e sou desenvolvedor front-end. Esse é o meu portifólio onde eu vou compartilhar quem eu sou, minhas especialidades e principalmente meus projetos.</p>
+        <p class="sobre__texto">Estou cursando desenvolvimento de sistemas na Etec de Guarulhos, onde me trouxe conhecimento em banco de dados, web design e grande base em lógica de programação e algotítimos.</p>
+        <p class="sobre__texto">Atualmente não tenho experiência na área, porém estou com meus estudos voltados na linguagem de programação JavaScript.</p> 
+        <p class="sobre__texto">Me considero um profissional com soft skills essenciais para o mercado de trabalho e principalmente para o desenvolvimento de software. Sou um profissional com colaboração com a equipe, resolução de problemas, proatividade, comunicação assertiva, aprendizado rápido e sempre com vontade de aprender mais e crescer junto com a empresa.</p>
+    </main>
+    <main class="projetos__conteudo sobre__conteudo">
+        <h2 class="sobre__titulo">Projetos</h2>
+        <article>
+            <section>
+                
+            </section>
+        </article>
     </main>
     <footer class="rodape">
-        <p>Desenvolvido por Vitor Hugo</p>
+        <p>Vitor Hugo - 2024</p>
     </footer>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
