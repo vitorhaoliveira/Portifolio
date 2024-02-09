@@ -18,6 +18,7 @@
 
 .projetos__cx-titulo {
     color: var(--cor-preto);
+    margin: 20px 0px 10px 0px;
 }
 
 .projetos__cx-desc {
